@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "zapdaspromos-34096",
+    "zap": "zapdaspromos-34096",
+    "maenopromos": "maenopromos-ce894",
+    "irmaspromo": "irmaspromo-dcf67"
+  },
+  "targets": {},
+  "etags": {}
+}

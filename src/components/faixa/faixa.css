@@ -1,0 +1,16 @@
+.faixa-div{
+    background-color: #D81B60;
+    height: 5vh;
+    display: flex;              /* ✅ aqui */
+    justify-content: center;    /* eixo X */
+    align-items: center;        /* eixo Y */
+}
+
+
+.texto-div{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 1.2;     /* evita corte do emoji */
+    font-weight: 600;
+}

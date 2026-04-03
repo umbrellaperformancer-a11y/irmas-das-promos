@@ -1,0 +1,64 @@
+.sectionLead{
+    display:block;
+    text-align:left;
+    max-width:760px;
+    margin: 0 auto;
+    opacity:.9;
+    font-size: 14px;
+  }
+  
+  .codeCard{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 16px;
+    overflow:hidden;
+  }
+  
+  .codeCardTop{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  
+  .codeLabel{
+    opacity:.75;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .copyBtn{
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    color: rgba(255,255,255,0.9) !important;
+  }
+  
+  .codeBody{
+    padding: 14px 14px 16px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 13px;
+    color: rgba(255,255,255,0.88);
+    line-height: 1.45;
+  }
+  
+  .codeTitle{
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .codeList{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:grid;
+    gap: 6px;
+  }
+  
+  .microText{
+    text-align:center;
+    opacity: .85;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  

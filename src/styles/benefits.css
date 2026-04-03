@@ -1,0 +1,80 @@
+.benefitsList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+  }
+  
+  .benefitItem{
+    display:flex;
+    gap: 12px;
+    align-items:flex-start;
+    font-size: 14px;
+    line-height: 1.25;
+  }
+  
+  .benefitItem svg{
+    margin-top: 2px;
+    color: var(--blue);
+  }
+  
+  .benefitsCtaWrap{
+    margin-top: 14px;
+    text-align: center;
+    opacity: 0.95;
+  }
+  
+  .benefitsNote{
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  
+  .phoneWrap{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    padding-top: 10px;
+  }
+  
+  .phoneGlow{
+    position:absolute;
+    width: 420px;
+    height: 260px;
+    background: radial-gradient(circle, rgba(47,125,255,0.35) 0%, rgba(47,125,255,0) 70%);
+    top: 0;
+  }
+  
+  .phoneCard{
+    width: min(520px, 92vw);
+    border-radius: 26px;
+    border: 1px solid var(--stroke);
+    background: rgba(255,255,255,0.03);
+    box-shadow: 0 24px 90px rgba(0,0,0,0.55);
+    overflow: hidden;
+  }
+  
+  .phoneImg{
+    width: 100%;
+    height: auto;
+    display:block;
+  }
+  
+  .phonePlaceholder{
+    padding: 26px;
+    opacity: 0.9;
+  }
+  
+  .phTitle{
+    font-weight: 900;
+    margin-bottom: 12px;
+  }
+  
+  .phLine{
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.10);
+    margin: 10px 0;
+  }
+  .phLine.short{ width: 70%; }
+  
